@@ -39,11 +39,14 @@
 }
 #cardDiv {
   display: flex;
-  justify-content: space-between; /* Adjust as needed */
-  gap: 10px; /* Adjust the gap between cards as needed */
-  flex-wrap: wrap; /* Allow cards to wrap to the next line if there isn't enough space */
+  justify-content: space-between; 
+  gap: 10px; 
+  flex-wrap: wrap; 
 }
 
-.CustomCard {
-  width: 18rem; /* Set the width of each card */
+
+
+#mainDiv{
+  padding-left: 10vw;
+  padding-right: 10vw;
 }

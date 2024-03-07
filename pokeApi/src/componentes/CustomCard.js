@@ -1,9 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './CustomCard.css'
 
-function BasicExample({tittle, text, imagen}) {
+function CustomCard({tittle, text, imagen}) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem'  }} id="card">
       <Card.Img variant="top" src={imagen} />
       <Card.Body>
         <Card.Title>{tittle}</Card.Title>
@@ -16,4 +17,4 @@ function BasicExample({tittle, text, imagen}) {
   );
 }
 
-export default BasicExample;
+export default CustomCard;
