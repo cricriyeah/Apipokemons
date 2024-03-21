@@ -46,15 +46,28 @@ function App() {
       <div id="cardDiv">
         {filteredPokemonList.length > 0 ? (
           filteredPokemonList.map((pokemon, index) => (
-            <CustomCard
+            <CustomCard 
+              types={pokemon.types[0].type.name}
               key={index}
               imagen={pokemon.sprites.front_default}
-              tittle={pokemon.name}
+              title={pokemon.name}
               text={
                 'Numero: ' +
                 pokemon.order +
                 '\nPeso: ' +
                 pokemon.weight
+              }
+              textModal={
+                'Numero: ' +
+                pokemon.order +
+                '\nPeso: ' +
+                pokemon.weight+
+                '\nAltura: ' +
+                pokemon.height +
+                '\nTipo: ' +
+                pokemon.types[0].type.name+
+                '\nHabilidad: ' +
+                pokemon.abilities[0].ability.name
               }
             />
           ))

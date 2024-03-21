@@ -1,4 +1,4 @@
-#card{
+.card{
     box-shadow:
   0.3px 0.5px 0.7px rgba(0, 0, 0, 0.011),
   0.8px 1.1px 1.8px rgba(0, 0, 0, 0.016),
@@ -7,4 +7,93 @@
   5px 7.1px 11.3px rgba(0, 0, 0, 0.029),
   12px 17px 27px rgba(0, 0, 0, 0.04)
 ;
+}
+#grass {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(155, 253, 177, 1) 79%, rgba(167, 255, 227, 1) 99%);
+}
+
+#fire {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(255, 165, 79, 1) 79%, rgba(255, 201, 97, 1) 99%);
+}
+
+#water {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(108, 206, 245, 1) 79%, rgba(173, 216, 230, 1) 99%);
+}
+
+#electric {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(255, 255, 77, 1) 79%, rgba(252, 255, 131, 1) 99%);
+}
+
+#rock {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(184, 171, 162, 1) 79%, rgba(209, 192, 180, 1) 99%);
+}
+
+#psychic {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(255, 192, 203, 1) 79%, rgba(248, 206, 218, 1) 99%);
+}
+
+#dragon {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(189, 178, 255, 1) 79%, rgba(212, 202, 255, 1) 99%);
+}
+
+#flying {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(135, 206, 235, 1) 79%, rgba(173, 216, 230, 1) 99%);
+}
+
+#bug {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(168, 209, 110, 1) 79%, rgba(189, 216, 141, 1) 99%);
+}
+
+#normal {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(200, 200, 200, 1) 79%, rgba(220, 220, 220, 1) 99%);
+}
+
+#poison {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(170, 86, 165, 1) 79%, rgba(200, 141, 200, 1) 99%);
+}
+
+#ground {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(216, 191, 133, 1) 79%, rgba(230, 213, 173, 1) 99%);
+}
+
+#fighting {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(208, 119, 94, 1) 79%, rgba(230, 147, 120, 1) 99%);
+}
+
+#steel {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(184, 184, 208, 1) 79%, rgba(200, 200, 224, 1) 99%);
+}
+
+#ice {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(135, 206, 235, 1) 79%, rgba(173, 216, 230, 1) 99%);
+}
+
+#ghost {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(123, 104, 238, 1) 79%, rgba(147, 112, 219, 1) 99%);
+}
+
+#dark {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(72, 61, 139, 1) 79%, rgba(105, 89, 205, 1) 99%);
+}
+
+#fairy {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(133deg, rgba(255, 255, 255, 1) 45%, rgba(255, 192, 203, 1) 79%, rgba(248, 206, 218, 1) 99%);
 }
